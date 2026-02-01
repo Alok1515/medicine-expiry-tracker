@@ -1,0 +1,14 @@
+{
+  "name": "medicine-exipry-tracker-root",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "install-deps": "bun install",
+    "build": "bun run --cwd frontend build"
+  },
+  "devDependencies": {
+    "next": "^14.2.0"
+  }
+}
