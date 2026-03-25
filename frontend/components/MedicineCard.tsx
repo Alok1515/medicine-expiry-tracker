@@ -3,7 +3,7 @@ import type { Medicine } from '@/lib/api'
 import ExpiryBadge from './ExpiryBadge'
 
 interface MedicineCardProps {
-  medicine: Medicine
+  medicine: Medicine 
   onDelete: (id: string) => void
 }
 
