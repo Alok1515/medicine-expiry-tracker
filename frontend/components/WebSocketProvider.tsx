@@ -9,7 +9,7 @@ import {
   type ReactNode,
 } from 'react'
 import { Client } from '@stomp/stompjs'
-import type { NotificationItem } from '@/lib/api'
+import type { NotificationItem } from '@/lib/api' 
 
 interface WebSocketContextValue {
   notifications: NotificationItem[]
