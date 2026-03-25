@@ -15,6 +15,7 @@ public class MedicineDTO {
     private String batchNumber;
     private String category;
     private LocalDate purchaseDate;
+    private ManufacturingDate manufacturringdate
 
     @NotNull(message = "Expiry date is required")
     private LocalDate expiryDate;
