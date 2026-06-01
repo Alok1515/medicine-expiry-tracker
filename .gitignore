@@ -3,7 +3,23 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-/
+
+# Dependency directories
+node_modules/
+frontend/node_modules/
+
+# Next.js build output
+.next/
+frontend/.next/
+out/
+
+# Environment files
+.env
+.env*.local
+
+# OS files
+.DS_Store
+Thumbs.db
 
 ### STS ###
 .apt_generated
@@ -32,4 +48,4 @@ build/
 
 ### VS Code ###
 .vscode/
-frontend/node_modules/
+
